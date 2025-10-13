@@ -59,10 +59,10 @@ console.log(w)
 //   console.log("you can not drive");
 //}
 function reset(){
-  windows.location.reload();
+  window.location.reload();
 }
 function submit(){
-  alret("successfully uploded");
+  alert("successfully uploded");
   windows.location.reload();
 }
 
