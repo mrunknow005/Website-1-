@@ -58,3 +58,11 @@ console.log(w)
 // else {
 //   console.log("you can not drive");
 //}
+function reset (){
+  windows.location.reload();
+}
+function submit(){
+  alret("successfully uploded");
+  windows.location.reload();
+}
+
