@@ -1,4 +1,4 @@
-alert("be careful")
+alert("be careful ☠️☠️☠️");
 
 /*
 let b = prompt("enter the value")
