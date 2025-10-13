@@ -58,7 +58,7 @@ console.log(w)
 // else {
 //   console.log("you can not drive");
 //}
-function reset (){
+function reset(){
   windows.location.reload();
 }
 function submit(){
