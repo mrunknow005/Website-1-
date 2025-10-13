@@ -62,7 +62,7 @@ function reset(){
   window.location.reload();
 }
 function submit(){
-  alert("successfully uploded");
   windows.location.reload();
+  alert("successfully uploded");
 }
 
