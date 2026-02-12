@@ -64,6 +64,6 @@ function reset(){
 function submit(){
   window.location.reload();
   alert("successfully uploded");
-//  window.location.href=""
+  window.location.href="index1.html"
 }
 
