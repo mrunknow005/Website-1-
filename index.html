@@ -1,88 +1,60 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>new</title>
-  <center>
-    <h1>Registretion</h1>
-  </center>
-  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <title>md login page</title>
+  <link rel="stylesheet" href="style2.css">
 </head>
-
-<body bgcolor="lightbule">
+<center>
+  <h1>
+    <div1>
+  welcome to login page
+  </div>
+  </h1>
+</center>
+<body>
+  <style>
+    div{
+      color: lightcoral
+    }
+    div1{
+      color: indianred
+    }
+    #month{
+      border-radius: 5px;
+      background: greenyellow;
+      border: none;
+    }
+ 
+   }
+  </style>
   <center>
-    <table class="tab" border="0">
-      <tr>
-        <td width="12%">Firat name</td>
-        <td width="1%">&nbsp;</td>
-        <td><input type="text" name="fname" class="fname" value="" /></td>
-      </tr>
-      <tr>
-        <td>meddel name</td>
-        <td>&nbsp;</td>
-        <td>
-          <input type="text" name="m" class="mname" value="" />
-        </td>
-      </tr>
-      <tr>
-        <td>last name</td>
-        <td>&nbsp;</td>
-        <td><input type="text" name="lname" class="lname" value="" /></td>
-      </tr>
-      <tr>
-        <td>Gender</td>
-        <td>&nbsp;</td>
-        <td>Male<input type="radio" name="gender" class="male" value="male"  />
-         Female<input type="radio" name= "gender" class="gfemale" value="female" />
-        </td>
-      </tr>
-      <tr>
-        <td>hobby</td>
-        <td>&nbsp;</td>
-        <td><input type="checkbox" name="hbox" class="hbox" value="dinging" checked>singing
-          <input type="checkbox" name="dancing" class="dancing" value="dancing">dansing
-          <input type="checkbox" name="reding" class="reding" value="reding">redding
-          <input type="checkbox" name="lerning" class="lerning" value="lerning">lerning
-        </td>
-      <tr>
-        <td>adress</td>
-        <td>&nbsp;</td>
-        <td>
-          <textarea name="tname" class="tarea" rows="4" cols="60"> </textarea>
-        </td>
-      </tr>
-      <tr>
-        <td>city</td>
-        <td>
-          </>&nbsp;</td>
-        <td>
-          <select name="cname" class,="cname">
-            <option>Ahemdabad</option>
-            <option>Vadodra</option>
-            <option>Gandhi nager</option>
-            <option>Vapi</option>
-            <option>Valsad</option>
-            <option>Heydrabad</option>
-            <option>Bharuch</option>
-            <option>Aamod</option>
-            </section>
-        </td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>
-          <button onclick="submit()" type="submit">submit</button>
-          <button onclick="reset()" type="reset">reset</button>
-        </td>
-      </tr>
-    </table>
-  </center>
-  <script src="script.js">
-    script.js
-  </script>
-</body>
+  <div>
+  <h2>
+    <form action="post"></form>
+   <input class="new" tyype="text" name="username" id="user name" placeholder="Enter user name">
 
+   <div>
+      <input type="password" name="password" id="password" placeholder="Enter password" required>
+      <div>
+        male
+      <input type="radio" name="gender" id="gender" required>
+      female
+      <input type="radio" name="gender" id="female" required>
+      <div>
+        <input type="month" name="month" class="month">
+    
+      <input type="checkbox" name="checkbox" class="box"required>
+      verify
+      <div>
+      <input onclick="submit()" type="submit" name="botton" class="submit" value="submit">
+      <br>
+      Enter your problem
+      <br>
+      <textarea class="rr" name="comment" id="<command>" cols="30" rows="2"></textarea>
+  </center>
+  </h2>
+<script src="script2.js">script2.js</script>
+</body>
 </html>
